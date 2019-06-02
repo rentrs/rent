@@ -1,0 +1,180 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.*/
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.*/
+
+@media only screen and (min-width: 768px) and (max-width: 1122px) {
+	.container{
+	width: 90%;
+}
+
+.facebook-login span{
+	display: none;
+}
+.facebook-login i{
+	margin-right: 0;
+	padding: 0 10px;
+}
+.content {
+	width: 100%;
+	margin: 0;
+}
+.content2 {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.copyright,.terms,.policy{
+	width:33% 
+}
+
+}
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.*/
+
+@media only screen and (max-width: 767px) {
+	.container{
+	width: 90%;
+}
+
+#header{
+	border: 1px solid #EEEEEE;
+}
+.side-nav-bar{
+	display: block;
+	float: right;
+	border: 1px solid #EEEEEE;
+	padding: 3px 10px;
+	margin: 10px 20px;
+	cursor: pointer;
+}
+.side-nav-bar:hover{
+	background: #EEEEEE;
+}
+.bar{
+	width: 25px;
+	height: 3px;
+	background: #666;
+	margin: 5px 0;
+}
+.social-icon{
+	display: none;
+}
+.facebook-login{
+	display: none;
+}
+.help{
+	display: none;
+}
+.btn{
+	font-size: 17px;
+}
+.heading-content h1{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.nav{
+	width: 100%;
+}
+.nav p{
+	color: white;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.nav ul li{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+.nav ul li a{
+	display: block;
+	margin: 2px 15px;
+	padding: 9px;
+}
+.nav>a i{
+	width: 100%;
+	margin: 30px auto;
+	margin-bottom: 70px;
+}
+.content{
+	margin: 0;
+	width: 100%;
+}
+.content2 {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.footer-nav{
+	overflow: hidden;
+}
+.right-nav{
+	display: none;
+}
+.copyright,.terms,.policy{
+	width:100%;
+	padding:0;
+	padding-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.container{
+	width: 90%;
+}
+
+
+}
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4. */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+}

@@ -1,0 +1,484 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 400;
+	color: #666;
+	line-height: 32px;
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+.nav ul li,.nav ul li a,.lang,.help,.facebook-login, .social-icon ul li, .social-icon ul li a i,.nav>a i, .social-nav ul li, .social-nav ul li a i, .usual-nav ul li a, .right-nav ul li a{
+	transition: 0.5s;
+}
+
+
+
+
+#header{
+    margin-top: 10px;
+    border: none;
+}
+
+.logo{
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.logo a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 33px;
+	font-weight: 600;
+	color: #4DA209;
+}
+
+.logo a i{
+	font-size: 50px;
+}
+
+.side-nav-bar{
+	display: none;
+}
+
+.option-bar{
+	float: right;
+    display: inline-block;
+}
+
+.social-icon{
+	overflow: hidden;
+	width: 190px;
+	float: left;
+}
+
+.social-icon ul{}
+
+.social-icon ul li{
+	float: left;
+	margin-left: 9px;
+}
+
+.social-icon ul li:hover a i{
+	background: grey;
+	color: #8EED5F;
+}
+
+.social-icon ul li a{}
+
+.social-icon ul li a i{
+	background: #000000;
+	color: white;
+	padding: 16px;
+	font-size: 22px;
+	border-radius: 9px;
+}
+
+.lang {
+	float: left;
+	position: relative;
+	display: inline-block;
+	margin-top: 12px;
+	padding-bottom: 16px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn{
+	color: #666;
+	font-size: 20px;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.btn:hover{
+	color: black;
+}
+
+.btn i{
+    margin-left: 4px;
+}
+
+.dropdown{
+	display: none;
+	position: absolute;
+	width: 143px;
+	top: 100%;
+	left: -11px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+	border: 1px solid rgba(0,0,0,.15);
+}
+
+.dropdown ul{
+    background: white;
+}
+.dropdown ul li{
+    background: white;
+}
+.dropdown ul li a{
+    color: black;
+	font-size: 16px;
+	display: block;
+	padding-left: 16px;
+}
+.dropdown ul li:hover{
+	background: #E7E7E7;
+}
+
+.show{
+	display: block;
+}
+    
+.facebook-login{
+	background: #39579A;
+	color: white;
+	padding: 11px;
+	border-radius: 10px;
+	float: left;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.facebook-login:hover{
+	background: #47657D;
+
+}
+
+.facebook-login i{
+	margin-right: 12px;
+}
+
+.help{
+	color: #4DA209;
+	float: left;
+	padding: 12px;
+	font-size: 18px;
+	margin-right: 6px;
+}
+
+.help:hover{
+	color: green;
+}
+
+.help i{
+	margin-left: 5px;
+}
+
+.heading-content {
+    background-image: url('img/img1.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: bottom;
+	margin-top: 10px;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.heading-content h1{
+	color: white;
+	margin: 0 auto;
+	width: 606px;
+	text-align: center;
+	font-size: 45px;
+	line-height: 48px;
+	padding-top: 220px;
+}
+
+.heading-content h1 span{
+	color: #8EED5F;
+}
+
+.nav{
+	margin: 0 auto;
+	width: 680px;
+	padding-top: 30px;
+}
+
+.nav>p{
+	color: #8EED5F;
+	font-size: 20px;
+	width: 170px;
+	float: left;
+	height: 175px;
+	margin-top: 12px;
+}
+
+.nav ul{}
+
+.nav ul li{
+	float: left;
+	margin-left: 8px;
+	margin-top: 25px;
+}
+
+.nav ul li:hover a{
+	background: #4DA209;
+	color: white;
+}
+
+.nav ul li a{
+	background: #8EED5F;
+	color: black;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 12px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.nav ul li a i{
+	margin-right: 6px;
+}
+
+.nav>a{
+	
+}
+
+.nav>a i{
+	font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.nav>a i:hover{
+	color: #8EED5F;
+}
+
+
+
+
+.container{
+	width: 1110px;
+	margin: 0 auto;
+}
+
+#mid-content{
+	padding: 70px 0;
+}
+
+#mid-content a{
+	color: #4DA209;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+}
+
+.content{
+	width: 350px;
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.content i{
+	color: #4DA209;
+	font-size: 48px;
+}
+
+.content h3{
+	color: #4DA209;
+	font-size: 20px;
+}
+
+.content p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+
+
+
+.bottom-content{
+	background: url("img/img2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 100px 0;
+	background-attachment: fixed;
+}
+
+.content2{
+	width: 500px;
+	float: left;
+	margin: 0 27px;
+}
+
+.first-heading{
+	background: #FFEC1B;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.first-heading a{
+	color: #23527C;
+}
+
+.second-heading{
+	background: #5A3565;
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.second-heading a{
+	color: white;
+}
+
+.content2 p{
+	color: white;
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+
+
+
+
+.footer{
+	margin: 30px 0;
+	overflow: hidden;
+}
+
+.logo2{
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.logo2 a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 33px;
+	font-weight: 600;
+	color: #4DA209;
+	float: left;
+}
+
+.logo2 a i{}
+
+.footer-nav{
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 25px 0;
+}
+
+.left-nav{
+	overflow: hidden;
+	width: 440px;
+	float: left;
+}
+
+.usual-nav ul{}
+
+.usual-nav ul li{}
+
+.usual-nav ul li a{
+	color: #666;
+}
+
+.usual-nav ul li a:hover{
+	color: black;
+}
+
+.social-nav{}
+
+.social-nav ul{}
+
+.social-nav ul li{
+	float: left;
+	margin-right: 5px;
+}
+
+.social-nav ul li:hover a i{
+	background: grey;
+	color: #8EED5F;
+}
+
+.social-nav ul li a{}
+
+.social-nav ul li a i{
+	background: black;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	display: table-cell;
+}
+
+.right-nav{
+	overflow: hidden;
+}
+
+.right-nav ul{
+	float: left;
+	width: 300px;
+}
+
+.right-nav ul li{
+
+}
+
+.right-nav ul li a{
+	color: #666;
+}
+
+.right-nav ul li a:hover{
+	color: black;
+}
+
+.copyright{
+	color: #666;
+	width: 440px;
+	float: left;
+	padding: 20px 0;
+}
+
+.terms{
+	width: 300px;
+	float: left;
+	padding: 20px 0;
+	color: #23527C;
+}
+
+.policy{
+	width: 300px;
+	float: left;
+	padding: 20px 0;
+	color: #23527C;
+}
+
+.wrapper{
+	padding-top: 70px;
+}
+
+.wrapper h1{
+	margin-bottom: 10px;
+}
